@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Unbrace — JSON Viewer",
+  "version": "1.0.0",
+  "description": "Formats JSON in the browser as a readable, collapsible tree with syntax highlighting. Runs locally and collects no data.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["viewer.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
