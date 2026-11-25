@@ -42,4 +42,4 @@ JSON can be served from any URL, including local files, so the content script mu
 
 **Data usage:** Collects none of the listed data types. Check all three limited-use certifications.
 
-**Privacy policy URL:** The public URL where `PRIVACY.md` is hosted.
+**Privacy policy URL:** https://github.com/k-dang/unbrace/blob/main/PRIVACY.md
